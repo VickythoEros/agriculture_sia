@@ -1,0 +1,20 @@
+.detail-cultures-container{
+    padding-top: 6rem;
+}
+
+.details-cultures-stade-develeppement{
+    margin-top: 5rem;
+}
+
+
+
+.span-styled{
+    background: rgb(19, 77, 28);
+    height: 20px;
+    width: 20px;
+    border-radius:2rem;
+    -webkit-border-radius:2rem;
+    -moz-border-radius:2rem;
+    -ms-border-radius:2rem;
+    -o-border-radius:2rem;
+}

@@ -1,0 +1,102 @@
+
+@charset "UTF-8";
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+
+:root {
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-dark-1: #140342;
+  --color-dark-2: #1A064F;
+  --color-dark-3: #6A7A99;
+  --color-dark-4: #242239;
+  --color-dark-5: #282664;
+  --color-green-1: #00FF84;
+  --color-green-2: #DEF5F0;
+  --color-green-3: #EEF8F5;
+  --color-green-4: #04D697;
+  --color-green-5: #126c2c;
+}
+
+
+
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Muli', sans-serif;
+  min-height: 100%;
+}
+body {
+  overflow-x: hidden;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+  width: 100%;
+  max-width: 100%;
+  background-color: #f8f8f8;
+  color: var(--color-light-1);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  transition: color 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: 'Muli', sans-serif;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 8px;
+  line-height: 1;
+  font-weight: 400;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+}

@@ -1,0 +1,26 @@
+.card-cultures-container{
+    
+    width:50rem;
+}
+.card-cultures-container > div{
+    height:13rem;
+}
+
+
+.card-cultures-container:hover{
+    cursor:pointer;
+   
+}
+
+/* .card-cultures-divider{
+    height:2px;
+    width:50%;
+    margin:auto;
+    background: #557e3a;
+} */
+
+.card-cultures-img{
+    height:10rem;
+    width:100%;
+    margin:auto;
+}

@@ -1,0 +1,16 @@
+.card-home{
+    width:18rem;
+    box-shadow:10px 3px 3px #7c7b7b,10px -3px -3px #7c7b7b;
+    text-align:center;
+    
+}
+
+.card-home-image{
+    height:10rem;
+    width:10rem;
+    margin:auto;
+}
+
+.card-home-text{
+    font-size: 600;
+}

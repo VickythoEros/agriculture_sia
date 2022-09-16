@@ -1,0 +1,11 @@
+.new-cultures-container{
+    padding-top: 7rem;
+    z-index: 999;
+    position: relative;
+    background-color: #fff;
+}
+
+.title-form-new-culture{
+    color: rgb(59, 154, 22)
+}
+

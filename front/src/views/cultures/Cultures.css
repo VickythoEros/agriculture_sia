@@ -1,0 +1,21 @@
+.cultures-container{
+    padding-top: 7rem;
+    z-index: 999;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.culture-heading-heading{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.culture-list-container{
+
+}
+.culture-lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+}

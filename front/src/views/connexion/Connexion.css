@@ -1,0 +1,51 @@
+.connexion-container{
+    height: 100vh;
+    padding:100px 0px ;
+    z-index: 999;
+    background:url('../../assets//images/connexion/plante2.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.connexion-form-container{
+    width:25rem;
+    margin:auto;
+    padding:2rem;
+    margin-top: 5rem;
+    transition:transform ease-in-out 0.5s;
+    -webkit-transition:transform ease-in-out 0.5s;
+    -moz-transition:transform ease-in-out 0.5s;
+    -ms-transition:transform ease-in-out 0.5s;
+    -o-transition:transform ease-in-out 0.1s;
+}
+
+.connexion-form-container:hover{
+    transform:translateY(10px);
+    -webkit-transform:translateY(10px);
+    -moz-transform:translateY(10px);
+    -ms-transform:translateY(10px);
+    -o-transform:translateY(10px);
+}
+
+.connexion-img{
+    width:5rem;
+    height:5rem;
+}
+
+.connexion-input,.connexion-button{
+    height:3rem;
+}
+
+.connexion-button{
+    background: #000;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.connexion-button:hover{
+    background: rgb(27, 26, 26);
+}

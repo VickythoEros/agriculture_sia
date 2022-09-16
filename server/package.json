@@ -1,0 +1,25 @@
+{
+  "name": "server-diane",
+  "version": "1.0.0",
+  "description": "api projet diane",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "diane",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-sse": "^0.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
