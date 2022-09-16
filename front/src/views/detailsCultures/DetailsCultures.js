@@ -142,11 +142,11 @@ export default function DetailsCultures(){
                             </h3>
                         </div>
 
-                        <div className="col-md-6">
+                        {/* <div className="col-md-6">
                             <Button variant="contained" endIcon={<EditIcon />}  className="float-center float-md-end" >
                                 Modifier
                             </Button>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="detail-stade-dev-container pt-3">
                         <p className='ms-5 mb-5' >Niveau d'évolution de la culture : {stadeDevInfo.periode_semaine} semaine{stadeDevInfo.periode_semaine>1&&'s'} </p>
@@ -155,14 +155,11 @@ export default function DetailsCultures(){
                 </div>
                 <div className="styled-devided"></div>
                 <div className="details-stade-dev-reserve pt-5">
-                    <div className="d-flex justify-content-between">
-                            <div className="d-flex" >
-                                <p className="span-styled mt-1">
-
-                                </p>
-                                <h4>
+                    <div className="row justify-content-start align-items-center">
+                            <div className="col-md-8 " >
+                                <h3>
                                     Historique des arrosages
-                                </h4>
+                                </h3>
                             </div>
                     </div>
 

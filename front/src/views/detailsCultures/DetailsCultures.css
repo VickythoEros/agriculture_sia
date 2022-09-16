@@ -1,20 +1,37 @@
 .detail-cultures-container{
     padding-top: 6rem;
+    background: #fdfcfc;
 }
+
+.detail-cultures-container h2{
+    font-size: 35px;
+    display: block;
+    color: #066e23;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.detail-cultures-container p{
+    font-size: 18px;
+    display: block;
+    color: #000000;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+
+.detail-cultures-container h3{
+    font-size: 22px;
+    display: block;
+    color: #066e23;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
 
 .details-cultures-stade-develeppement{
     margin-top: 5rem;
 }
 
-
-
-.span-styled{
-    background: rgb(19, 77, 28);
-    height: 20px;
-    width: 20px;
-    border-radius:2rem;
-    -webkit-border-radius:2rem;
-    -moz-border-radius:2rem;
-    -ms-border-radius:2rem;
-    -o-border-radius:2rem;
-}

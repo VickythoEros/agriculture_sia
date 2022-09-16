@@ -73,7 +73,7 @@ export default function Cultures(){
 
             <div className="culture-list-container pt-5">
             { listCultures.length !==0 ?
-                    (<div className="culture-lists mx-auto">
+                    (<div className="culture-lists row mx-auto">
 
                        { listCultures.map((item, index) =>{
 
