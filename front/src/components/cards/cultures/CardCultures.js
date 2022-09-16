@@ -2,9 +2,11 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Panel } from 'rsuite';
-import axiosInstance from '../../../api/axiosIntance';
 
-import gardeningImg from '../../../assets/images/cultures/tomate1.jpg'
+import Button from '@mui/material/Button';
+import axiosInstance from '../../../api/axiosIntance';
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import gardeningImg from '../../../assets/images/cultures/tomate1bg.png'
 
 import './CardCultures.css'
 
@@ -28,27 +30,47 @@ export default function CardCultures({id,nomCulture,villeCulture,descriptionCult
     return(
         <>
       
-        <Panel onClick={()=>onClickDetailsCulture()} shaded className="m-3 card-cultures-container" >
-            <div className='d-flex justify-content-between'>
-                <div>
-                <img className="img-fluid card-cultures-img" src={gardeningImg}/>
-                </div>
-                <div className="ps-5">
-                    <h4  className='text-center' >
-                    {nomCulture}
-                    </h4>
-                <p>
-                {
-                    descriptionCulture
-                }
-                </p>
-                <div className="mt-3" >
-                <h6 className="float-start" >Stade de développement : <span className="text-dark" >
-                   {stadeDevInfo?.nom} </span> </h6>
-                <h6 className="float-end" >Semaine : <span className="text-dark" > {stadeDevInfo?.periode_semaine} </span> </h6>
-                </div>
+        <Panel onClick={()=>onClickDetailsCulture()} shaded className="m-3 panel-culture-card bg-white col-lg-4 col-md-5 col-sm-6 col-11 my-5" >
+            <div className="row m-auto text-center p-2">
+                <div className="col-12">
+                    <img alt="img cuture" className="img-fluid" src={gardeningImg}/>
                 </div>
             </div>
+            <div className="row panel-culture-card-text">
+                <div className="col-12">
+                    <h4>
+                    {nomCulture}
+                    hghghdhd
+                    </h4>
+                    <div className="p-content">
+                            <p>
+                            {
+                            descriptionCulture
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="row panel-culture-footer justify-content-between align-items-center">
+                <div className="col-6">
+                    <h6>Stade de développement</h6>
+                    <p>
+                        {stadeDevInfo?.nom}
+                    </p>
+                </div>
+                <div className="col-6 text-end">
+                    <h6>Nombre de semaine</h6>
+                    <p >
+                    {stadeDevInfo?.periode_semaine}
+                    </p>
+                </div>
+            </div>
+            <div className="panel-culture-btn-content">
+            <Button  onClick={()=>onClickDetailsCulture()} variant="contained" startIcon={<RemoveRedEyeIcon />}>
+                Voir plus
+            </Button>
+            </div>
+
           
         </Panel>
         </>
